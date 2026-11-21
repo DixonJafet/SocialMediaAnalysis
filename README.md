@@ -185,25 +185,6 @@ dashboard/SocialMediaDashboard.pbix
 
 Open it with Microsoft Power BI Desktop and connect it to the MongoDB records or exported dataset for the required reporting environment.
 
----
-
-## Testing
-
-The test suite uses synthetic data and does not contact Azure or modify MongoDB:
-
-```powershell
-.\.venv\Scripts\python.exe -m unittest discover -s .\tests -p "test_*.py" -v
-```
-
----
-
-## Notes
-
-- Mirror matching depends on visible dates and normalized captions
-- Platform selectors and login flows can change
-- Automatic classification can make mistakes, especially with sarcasm
-- Unresolved matches do not prove that a mirror publication does not exist
-- A human review of the classified dataset is recommended
 
 ---
 
