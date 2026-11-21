@@ -1,0 +1,9 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.browser-profile/
+.batch-state.sqlite3*
+test/
+*.txt
+AI_README.md
